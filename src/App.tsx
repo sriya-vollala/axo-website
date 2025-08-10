@@ -8,6 +8,7 @@ import AboutPic from './components/about/AboutPic';
 import Footer from './components/Footer';
 import President from './routes/PresidentNote';
 import Home from './routes/Home';
+import Philo from './routes/Philanthropy';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Home />} />
         <Route path="/presidents-note" element={<President />} />
+        <Route path="/philanthropy" element={<Philo />}></Route>
       </Routes>
       <Footer />
     </>

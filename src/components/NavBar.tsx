@@ -12,7 +12,7 @@ function NavBar() {
                                 <NavLink className="nav-link" to="/presidents-note">President's Note</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href="#">Philanthropy</a>
+                                <NavLink className="nav-link" to="/philanthropy">Philanthropy</NavLink>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active" href="#">Executive Board</a>

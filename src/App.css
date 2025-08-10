@@ -81,4 +81,35 @@
     margin: 40px;
 }
 
+.phil-title {
+    color: #BAB86C;
+    font-variant: small-caps;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px !important;
+    font-weight: 550;
+}
 
+.sub-head {
+    color: #BAB86C;
+    font-variant: small-caps;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px !important;
+    font-weight: 550;
+}
+
+.phil-content {
+    margin: 40px;
+    display: flex;
+}
+
+.phil-info {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.c1 {
+    margin: 20px;
+}
+
+.c2 {
+    margin: 20px;
+}
