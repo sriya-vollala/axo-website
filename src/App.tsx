@@ -14,6 +14,7 @@ import './App.css';
 function App() {
   return (
     <>
+      <div className="body">
       <TitleName />
       <NavBar />
       <Routes>
@@ -25,6 +26,8 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
       <Footer />
+      </div>
+      
     </>
   );
 }

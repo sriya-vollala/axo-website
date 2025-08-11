@@ -70,6 +70,8 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #eaead3;
     height: 50px;
+    text-decoration: none;
+    margin-top: auto;
 }
 
 .about2 {
@@ -142,4 +144,29 @@
     font-size: 60px !important;
     font-weight: 550;
     margin-top: 30px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.contact-header {
+    color: #BAB86C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 550;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.contact-sub {
+    margin-top: 20px;
+    color: #636363;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0%;
 }
