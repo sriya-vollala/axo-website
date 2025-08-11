@@ -4,10 +4,10 @@ function PP1() {
     return (
         <img src={PhilPic1} alt="Denim Day" className="about-pic3"
         style={{
-            width: '400px',
-            height: 'auto',
+            width: 'auto',
+            height: '450px',
             objectFit: 'cover',
-            margin: '40px',
+            marginBottom: '20px',
         }}
         />
     )

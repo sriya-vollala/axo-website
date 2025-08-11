@@ -108,8 +108,38 @@
 
 .c1 {
     margin: 20px;
+    width: 50%;
 }
 
 .c2 {
     margin: 20px;
+    width: 50%;
+}
+
+.centerinfo {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+}
+
+.bold {
+    font-size: 17px;
+}
+
+.exec-title {
+    text-align: center;
+    color: #BAB86C;
+    font-variant: small-caps;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px !important;
+    font-weight: 550;
+    margin-top: 30px;
 }

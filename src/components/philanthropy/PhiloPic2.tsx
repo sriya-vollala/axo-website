@@ -4,10 +4,10 @@ function PP2() {
     return (
         <img src={PhilPic2} alt="Volley Against Violence" className="about-pic4"
         style={{
-            width: '400px',
-            height: 'auto',
+            width: 'auto',
+            height: '500px',
             objectFit: 'cover',
-            margin: '40px',
+            marginTop: '20px',
         }}
         />
     )

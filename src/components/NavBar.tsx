@@ -15,10 +15,10 @@ function NavBar() {
                                 <NavLink className="nav-link" to="/philanthropy">Philanthropy</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href="#">Executive Board</a>
+                                <NavLink className="nav-link" to="/exec-board">Executive Board</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href="#">Contact Us</a>
+                                <NavLink className="nav-link" to="/contact-us">Contact Us</NavLink>
                             </li>
                         </ul>
                     </div>
