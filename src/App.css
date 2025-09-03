@@ -69,9 +69,22 @@
     color: #636363;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #eaead3;
-    height: 50px;
+    height: 100px;
     text-decoration: none;
     margin-top: auto;
+    /* added padding and stacked children vertically */
+    padding: 20px;
+    flex-direction: column;
+}
+
+.instagram-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    color: #636363;
+    text-decoration: none;
 }
 
 .about2 {
