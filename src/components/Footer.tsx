@@ -1,9 +1,11 @@
 import { FaInstagram } from 'react-icons/fa';
 
-// create and
+// create icon variable
 const InstagramLink = () => {
     return (
+        // <a> makes it a clickable icon
         <a
+            // website link the icon redirects to
             href="https://www.instagram.com/axoucsb/"
             // target and rel for security/fun
             target="_blank"
