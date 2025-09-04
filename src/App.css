@@ -28,6 +28,16 @@
     font-size: 18px !important;
 }
 
+/* different color for active page */
+.nav-link.active {
+    color: #888651 !important;
+}
+
+/* hover state */
+.navbar-nav .nav-link:hover {
+  color: #888651 !important;
+}
+
 .navbar {
     padding: 15px !important;
 }

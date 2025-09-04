@@ -1,33 +1,66 @@
+// NavBar.tsx
 import { NavLink } from "react-router-dom";
+import { useState, useRef } from "react";
+import { Collapse } from "bootstrap";
 
 function NavBar() {
-    return (
-        <div>
-            <nav className="navbar navbar-expand bg-body-tertiary body">
-                <div className="container-fluid">
-                    <NavLink className="navbar-brand" to="/">About</NavLink>
-                    <div className="justify-content-center" id="navbarNav">
-                        <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/presidents-note">President's Note</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/philanthropy">Philanthropy</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/exec-board">Executive Board</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/contact-us">Contact Us</NavLink>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        
-    )
-    
-}
-export default NavBar;
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navbarCollapseRef = useRef(null);
 
+  const navLinks = [
+    { to: "/", label: "About" },
+    { to: "/presidents-note", label: "President's Note" },
+    { to: "/philanthropy", label: "Philanthropy" },
+    { to: "/exec-board", label: "Executive Board" },
+    { to: "/contact-us", label: "Contact Us" },
+  ];
+
+  const brandTitle = "Navigation";
+
+  const handleLinkClick = () => {
+    // collapse the menu
+    if (navbarCollapseRef.current) {
+        const bsCollapse = new Collapse(navbarCollapseRef.current, {
+            toggle: false
+        });
+        bsCollapse.hide();
+    }
+  };
+
+  return (
+    <nav className="navbar navbar-expand-md bg-body-tertiary">
+      <div className="container-fluid">
+        {/* Mobile Title - static */}
+        <span className="navbar-brand d-md-none">{brandTitle}</span>
+        {/* Hamburger button */}
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        {/* Navbar Links */}
+        <div className="collapse navbar-collapse justify-content-center" id="navbarNav" ref={navbarCollapseRef}>
+          <ul className="navbar-nav">
+            {navLinks.map((link) => (
+              <li className="nav-item" key={link.to}>
+                {/* onClick handler to each NavLink */}
+                <NavLink className="nav-link" to={link.to} onClick={handleLinkClick}>
+                  {link.label}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
+}
+
+export default NavBar;
