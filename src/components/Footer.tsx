@@ -12,7 +12,7 @@ const InstagramLink = () => {
             rel="noopener noreferrer"
             className="instagram-link"
         >
-            <FaInstagram size={20} /> as unknown as JSX.Element
+            <FaInstagram size={20} /> 
         </a>
     );
 };
