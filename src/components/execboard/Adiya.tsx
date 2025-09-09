@@ -1,4 +1,6 @@
-import adiya from '../../assets/adiya.jpg';
+
+import React from 'react';
+import adiya from '../assets/adiya.jpg';
 
 function AdiyaM() {
     return(

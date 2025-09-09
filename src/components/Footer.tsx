@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaInstagram } from 'react-icons/fa';
 
 // create icon variable

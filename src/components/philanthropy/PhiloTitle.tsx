@@ -1,3 +1,5 @@
+import React from "react";
+
 function PhilTitle() {
     return (
         <><p className="phil-title">Our Philanthropy</p>

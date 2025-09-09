@@ -1,3 +1,4 @@
+import React from 'react';
 import PhilPic1 from '../../assets/PhilPic1.png';
 
 function PP1() {

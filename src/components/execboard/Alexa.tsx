@@ -1,4 +1,5 @@
-import alexa from '../../assets/alexa.jpg';
+import React from 'react';
+import alexa from '/src/assets/alexa.jpg';
 
 function AlexaG() {
     return(

@@ -1,3 +1,5 @@
+import React from "react";
+
 function AboutInfo() {
     return (
         <><p>Alpha Chi Omega is a women’s organization dedicated to empowering real, strong women to reach their potential through a lifelong experience of sisterhood, service and leadership development.</p>

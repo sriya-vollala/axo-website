@@ -1,3 +1,5 @@
+import React from "react";
+
 function AboutTitle() {
     return (
         <p>About Us</p>

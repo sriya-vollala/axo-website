@@ -1,4 +1,7 @@
-import AboutPic from '../../assets/AboutPic.png';
+/// <reference types="vite/client" />
+
+import React from 'react';
+import AboutPic from "../../AboutPic.png";
 
 function AboutPic2() {
     return (

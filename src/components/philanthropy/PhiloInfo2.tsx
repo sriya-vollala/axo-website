@@ -1,3 +1,5 @@
+import React from "react";
+
 function PhilInfo2() {
     return (
         <>
