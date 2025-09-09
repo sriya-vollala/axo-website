@@ -183,3 +183,23 @@
     margin: 0px;
     padding: 0%;
 }
+
+/* below edits are for the image carousel*/
+/* Flexbox container for the images */
+.slick-track {
+  display: flex;
+  align-items: center; /* Aligns images vertically in the center */
+}
+
+/* images fill the container */
+.carousel-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* padding to the dots for better visibility */
+.slick-dots {
+  bottom: 20px;
+}
