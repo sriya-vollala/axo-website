@@ -1,4 +1,5 @@
 // NavBar.tsx
+
 import { NavLink } from "react-router-dom";
 import { useState, useRef } from "react";
 import { Collapse } from "bootstrap";

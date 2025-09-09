@@ -5,10 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 //import "./App.css";
 
 // Import images here
-import pic1 from "../../assets/AboutPic.png";
-import pic2 from "../../assets/adiya.jpg";
-import pic3 from "../../assets/alexa.jpg";
-import pic4 from "../../assets/angela.jpg";
+import pic1 from "../assets/AboutPic.png";
+import pic2 from "../assets/adiya.jpg";
+import pic3 from "../assets/alexa.jpg";
+import pic4 from "../assets/angela.jpg";
 
 
 const PicCarousel = () => {
