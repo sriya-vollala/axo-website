@@ -30,7 +30,7 @@ function NavBar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-md bg-body-tertiary">
+    <nav className="navbar navbar-expand-md custom-navbar">
       <div className="container-fluid">
         {/* Mobile Title - static */}
         <span className="navbar-brand d-md-none">{brandTitle}</span>
