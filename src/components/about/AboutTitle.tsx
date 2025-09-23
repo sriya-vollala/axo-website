@@ -2,7 +2,9 @@ import React from "react";
 
 function AboutTitle() {
     return (
-        <p>About Us</p>
+        <h1 className= "about-title-bar">
+            About Us
+        </h1>
     );
 }
 

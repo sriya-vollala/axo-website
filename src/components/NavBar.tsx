@@ -11,7 +11,7 @@ function NavBar() {
 
   const navLinks = [
     { to: "/", label: "About" },
-    { to: "/presidents-note", label: "President's Note" },
+    { to: "/about-us", label: "About Us" },
     { to: "/philanthropy", label: "Philanthropy" },
     { to: "/exec-board", label: "Executive Board" },
     { to: "/contact-us", label: "Contact Us" },
