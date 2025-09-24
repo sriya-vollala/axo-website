@@ -1,6 +1,6 @@
 function PresTitle() {
     return (
-        <p className="pres-note">President's Note</p>
+        <p className="pres-title">A Letter From Our President</p>
     )
 }
 

@@ -53,7 +53,7 @@
   font-variant: small-caps;
   /* changed so its aligned in center and added bar color */
   text-align: center;
-  background-color: #577089;
+  background-color: #9ca182;
   width: 100%;
   box-sizing: border-box;
 }
@@ -181,6 +181,38 @@
 .pres-content {
   display: flex;
   margin: 40px;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* add @ media for collumn */
+
+.pres-title {
+  display: flex;
+  flex-direction: column;
+  color: #636b2f;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px !important;
+  font-weight: 550;
+  font-variant: small-caps;
+  text-align: right;
+  margin-right: 40px;
+}
+
+.pres-pic {
+  max-height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.pres-note {
+  display: flex;
+  flex-direction: column;
+  color: #636b2f;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px !important;
+  font-weight: 550;
+  text-align: left;
 }
 
 .phil-title {
@@ -292,9 +324,9 @@
   bottom: 30px;
 }
 
-.slick-slide {
+/*.slick-slide {
   padding: 0 10px;
-}
+}*/
 
 .slick-prev,
 .slick-next {

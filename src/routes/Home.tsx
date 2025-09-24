@@ -1,6 +1,6 @@
-import AboutTitle from '../components/about/AboutTitle';
-import AboutInfo from '../components/about/AboutInfo'
-import AboutPic2 from '../components/about/AboutPic';
+import PresidentTitle from '../components/pres/PresidentTitle';
+import PresidentInfo from '../components/pres/PresidentInfo'
+import PresidentPic from '../components/pres/PresidentPic';
 import PicCarousel from '../components/picCarousel';
 
 
@@ -9,14 +9,14 @@ function Home() {
   return (
     <>
       <PicCarousel />
-      <div className="about-content">
-        <div className="about2">
-          <AboutTitle />
-          <div className="text">
-            <AboutInfo />
-          </div>
+      <div className="pres-content">
+        <div className='pres-left'>
+          <PresidentTitle />
+          <PresidentPic />
         </div>
-        <AboutPic2/>
+        <div>
+          <PresidentInfo />
+        </div>
       </div>
     </>
   );

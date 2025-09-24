@@ -10,7 +10,7 @@ function NavBar() {
   const navbarCollapseRef = useRef(null);
 
   const navLinks = [
-    { to: "/", label: "About" },
+    { to: "/", label: "Home" },
     { to: "/about-us", label: "About Us" },
     { to: "/philanthropy", label: "Philanthropy" },
     { to: "/exec-board", label: "Executive Board" },
