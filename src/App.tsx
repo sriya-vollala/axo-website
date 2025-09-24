@@ -15,6 +15,7 @@ function App() {
   return (
     <>
       <div className="body">
+      
       <TitleName />
       <NavBar />
       <Routes>
