@@ -5,7 +5,7 @@ function PresPic() {
         <img src={PresPics} alt="Alexa Gonzolez" className="pres-pic"
         style={{
             width: 'auto',
-            height: '680px',
+            height: '200px',
             objectFit: 'cover',
             margin: '40px',
         }}
