@@ -16,26 +16,42 @@ import HannahM from "../components/execboard/Hannah";
 function Executive() {
     return(
         <>
+        <ExecTitle />
             <div className="centerinfo">
-                <ExecTitle />
                 <div className="container">
                     <AlexaG />
+                </div>
+                <div className="container">
                     <AvaL />
+                </div>
+                <div className="container">
                     <AngelaO />
                 </div>
                 <div className="container">
                     <EmmyH />
+                </div>
+                <div className="container">
                     <SriyaV />
+                </div>
+                <div className="container">
                     <KatieZ />
                 </div>
                 <div className="container">
                     <NatalieK />
+                </div>
+                <div className="container">
                     <KateM />
+                </div>
+                <div className="container">
                     <RachelD />
                 </div>
                 <div className="container">
                     <AdiyaM />
+                </div>
+                <div className="container">
                     <SamH />
+                </div>
+                <div className="container">
                     <JessH />
                 </div>
                 <div className="container">
