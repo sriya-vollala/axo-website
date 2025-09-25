@@ -1,9 +1,11 @@
+import PresPics from '../../assets/PresPic.png';
+
 function PresPic() {
     return (
-        <img src="/PresPic.JPG" alt="Alexa Gonzolez" className="pres-pic"
+        <img src={PresPics} alt="Alexa Gonzolez" className="pres-pic"
         style={{
-            width: '1000px',
-            height: '1000px',
+            width: 'auto',
+            height: '680px',
             objectFit: 'cover',
             margin: '40px',
         }}
