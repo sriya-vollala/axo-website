@@ -1,4 +1,4 @@
-import PresPics from '../../assets/PresPic.png';
+import PresPics from '../../assets/PresPic.JPG'
 
 function PresPic() {
     return (
