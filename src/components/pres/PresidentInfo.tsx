@@ -8,9 +8,6 @@ function PresInfo() {
         <p className='pres-note'>Community service and campus involvement are also essential parts of who we are. Our members are leaders in student organizations, volunteers across Santa Barbara, and advocates for causes close to their hearts. We believe that being part of Alpha Chi means not only investing in yourself but also giving back to the world around you.</p>        
         <p className='pres-note'>As Chapter President, I’ve experienced firsthand how Alpha Chi empowers women to grow into confident leaders, compassionate friends, and engaged community members. This sisterhood has shaped me in ways I could never have imagined, and I’m so proud to be part of a chapter that embodies strength, purpose, and unity.</p>
         <p className='pres-note'>We’re so glad you’re here, and we invite you to explore our website to learn more about what makes Alpha Chi Omega at UCSB truly one of a kind.</p>
-        <p className='pres-note'>With love and loyalty,</p>
-        <p className='pres-note'>Alexa Gonzalez</p>
-        <p className='pres-note'>Chapter President, Alpha Chi Omega</p>
         </>
             
         );

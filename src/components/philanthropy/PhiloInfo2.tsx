@@ -2,7 +2,7 @@ import React from "react";
 
 function PhilInfo2() {
     return (
-        <>
+        <><p className='phil-info2'>
         <p className="sub-head">
         Annual Awareness Campaigns
         </p>
@@ -33,6 +33,7 @@ function PhilInfo2() {
         support the victims and survivors of sexual assault by wearing denim, creating 
         a jean display or hosting an event on campus with educational information to 
         promote awareness. 
+        </p>
         </p>
         </>
     )

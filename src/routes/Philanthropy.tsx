@@ -8,13 +8,17 @@ import PhilInfo2 from "../components/philanthropy/PhiloInfo2";
 function Philo() {
     return (
         <div className="phil-content">
-            <div className="c1">
+            <div className="phil-columnL">
                 <PhilTitle />
-                <PhilInfo />
+                <div className="Phil-pic">
+                    <PhilInfo />
+                </div>
                 <PP2 />
             </div>
-            <div className="c2">
-                <PP1 />
+            <div className="phil-columnR">
+                <div className="Phil-pic">
+                    <PP1 />
+                </div>
                 <PhilInfo2 />
             </div>
         </div> 

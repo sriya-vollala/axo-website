@@ -2,7 +2,7 @@ import PresidentTitle from '../components/pres/PresidentTitle';
 import PresidentInfo from '../components/pres/PresidentInfo'
 import PresidentPic from '../components/pres/PresidentPic';
 import PicCarousel from '../components/picCarousel';
-
+import PresOutro from '../components/pres/PresidentOutro';
 
 
 function Home() {
@@ -10,13 +10,12 @@ function Home() {
     <>
       <PicCarousel />
       <div className="pres-content">
-        <div className='pres-left'>
           <PresidentTitle />
-          <PresidentPic />
-        </div>
-        <div>
           <PresidentInfo />
-        </div>
+      </div>
+        <div className='pres-outro'>
+          <PresidentPic />
+          <PresOutro />
       </div>
     </>
   );
